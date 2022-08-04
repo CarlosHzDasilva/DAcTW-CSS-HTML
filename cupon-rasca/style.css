@@ -1,0 +1,211 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    background-color: #EEECED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    margin: 0px 20px 0px 20px;
+    color: #4e4d4e;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #008137;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 0px 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+a, .green {
+    color: #008137;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    color: none;
+}
+
+.breadcrumb {
+    margin-left: 20px;
+}
+
+.breadcrumb, .breadcrumb:active, .breadcrumb:visited {
+    text-decoration: none;
+    color: #4e4d4e;
+}
+
+.breadcrumb:hover {
+    text-decoration: underline;
+}
+
+.accesos-header {
+    margin-right: 30px;
+}
+
+.logo-header {
+    width: 20%;
+    min-width: 250px;
+    height: auto;
+    margin: 10px 20px 10px 20px;
+}
+
+.login-logo {
+    margin: 10px 5px 10px 10px;
+    padding: 3px;
+}
+
+.login-logo {
+    transition: 0.3s ease-in-out;
+}
+
+.login-logo:hover {
+    transform: scale(1.1);
+    border-radius: 50%;
+    border: 2px dashed #FFD500;
+}
+
+.expositor {
+    background-image: url(./images/background-Megamillonario.jpg);
+    background-size: contain;
+    border: 3px solid #BAB4A8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #BAB4A8;
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-mega {
+    transition: 0.3s;
+}
+
+.banner-mega:hover {
+    transform: scale(1.2);
+}
+
+.play-container, .rewards, .rules {
+    background-color: #ffffff;
+    border: 3px solid #008137;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #008137;
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.buttons, .buttons:active, .buttons:visited {
+    text-decoration: none;
+}
+
+.button1 {
+    background: #ffffff;
+    border-radius: 3px;
+    border: 2px solid #008137;
+    padding: 5px 8px 5px 8px;
+    color: #008137;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.button2 {
+    background: #008137;
+    border-radius: 3px;
+    border: 2px solid #008137;
+    padding: 5px 8px 5px 8px;
+    color: #ffffff;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    box-shadow: 0px 0px 50px 10px #FFD500;
+}
+
+.button1:hover {
+    background: #008137;
+    color: #ffffff;
+}
+
+.button2:hover {
+    background: #ffffff;
+    color: #008137;
+}
+
+.list {
+    text-align: center;
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+.arrow-up {
+    background-color: #5E6B74;
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.arrow {
+    width: 28px;
+    height: auto;
+}
+
+.up {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    color: #ffffff;
+    background-color: #203039;
+    text-align: center;
+}

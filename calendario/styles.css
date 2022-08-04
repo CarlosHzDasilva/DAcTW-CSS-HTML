@@ -1,0 +1,62 @@
+body div:nth-child(2n+1) {
+  background-color: antiquewhite;
+}
+
+body div:nth-child(2n) {
+  background-color: beige;
+}
+
+
+div {
+  overflow: hidden;
+}
+
+.horario {
+  width: 5%;
+  height: 500px;
+  border: 2px solid;
+
+  display: inline-block;
+  box-sizing: border-box;
+
+  float: left;
+}
+
+.columnas {
+  width: 19%;
+  height: 500px;
+  border: 2px solid;
+
+  display: inline-block;
+  box-sizing: border-box;
+
+  float: left;
+}
+
+.encabezado {
+  width: 100%;
+  height: 5%;
+
+  border-bottom: 2px solid;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+.horario-matinal, .horario-vespertino {
+  width: 100%;
+  height: 45%;
+
+  text-align: center;
+}
+
+.horario-matinal, .descanso {
+  border-bottom: 2px dashed;
+}
+
+.descanso {
+  width: 100%;
+  height: 5%;
+
+  text-align: center;
+}

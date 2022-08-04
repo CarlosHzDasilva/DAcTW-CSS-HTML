@@ -1,0 +1,228 @@
+*  {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(./img/htmlBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(to top, #945B29, #D1813B);
+}
+
+header, nav {
+    width: 100%;
+}
+
+section {
+    width: 75%;
+    border-left: 3px solid #140D06;
+    border-right: 3px solid #140D06;
+    padding: 10px;
+}
+
+.boton, .logo, .barra-busqueda {
+    color: #140D06;
+}
+
+.logo {
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background-image: url(./img/icons/colombia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.boton, .barra-busqueda {
+    border: 2px solid #140D06;
+    border-radius: 10px;
+    background-color: #614B38;
+
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.barra-busqueda {
+    cursor: text;
+}
+
+.boton:hover {
+    border: 2px dashed #D1813B;
+    color: #D1813B;
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D1813B;
+}
+
+.barra-navegacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 10px;
+
+    background-color: #945B29;
+    color: white;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 10px 0px 10px 10px;
+    gap: 15px;
+}
+
+.breads, .next {
+    border: 1px solid transparent;
+    color: #0A1940;
+    margin: 10px 0px 10px 0px;
+    padding: 2px 5px 2px 5px;
+}
+
+.breads:hover {
+    border: 1px dashed #0A1940;
+    border-radius: 5px;
+}
+
+.navegacion {
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.navegacion:hover {
+    background-color: white;
+    color: #D1813B;
+}
+
+.error-page {
+    text-align: center;
+}
+
+.error {
+    width: 40%;
+    height: auto;
+}
+
+.toTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/icons/upArrow.png);
+    background-size: contain;
+}
+
+.toTop:hover {
+    border: 1px dashed #0A1940;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #945B29;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cafetera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container {
+    position: relative;
+}
+
+.producto {
+    width: 80%;
+}
+
+.precio {
+    width: 200px;
+    height: 100px;
+    border: 5px solid red;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px 1px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.precio:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.precio-texto {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+p {
+    width: 80%;
+}

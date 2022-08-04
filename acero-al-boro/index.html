@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="./styles.css">
+  <title>Acero al boro</title>
+</head>
+<body>
+  <header id="top">
+    <h1>Acero al boro</h1>
+    <h2>Para controlar un poco más sobre energía nuclear</h2>
+  </header>
+
+  <nav class="nav-menu">
+    <div class="nav-buttons">
+      <a href="./subpages/reactores.html">Tipos de reactores</a>
+    </div>
+    <div class="nav-buttons">
+      <a href="#central">Parte 0: Central Nuclear</a>
+    </div>
+    <div class="nav-buttons">
+      <a href="#reactor">Parte 1: El Reactor</a>
+    </div>
+    <div class="nav-buttons">
+      <a href="#electric">Parte 2: Producción eléctrica</a>
+    </div>
+    <div class="nav-buttons">
+      <a href="#condensation">Parte 3: Condensación</a>
+    </div>
+  </nav>
+
+  <article>
+    <h2 id="central">¿Qué es una central nuclear?</h2>
+    <p>Una central térmica nuclear o planta nuclear es una instalación industrial empleada para la generación de energía eléctrica a partir de energía nuclear. Se caracteriza por el empleo de combustible nuclear fisionable que mediante reacciones nucleares proporciona calor que a su vez es empleado, a través de un ciclo termodinámico convencional, para producir el movimiento de alternadores que transforman el trabajo mecánico en energía eléctrica. Estas centrales constan de uno o más reactores.</p>
+    <p>Las centrales nucleares se divide, a su vez, en 3 zonas diferentes:</p>
+    <ul>
+      <li>Zona del Reactor: donde se encuentra el elemento principal de toda central nuclear, su reactor de fisión nuclear.</li>
+      <li>Zona de producción eléctrica: donde encontramos turbinas de vapor y generadores.</li>
+      <li>Zona de condensación: donde se condensa el vapor generado en el reactor.</li>
+    </ul>
+    <img src="./img/central.png" alt="Esquema de una central nuclear con un reactor de agua a presión (PWR)" title="De izquierda a derecha: Reactor, producción eléctrica, área de condensación">
+    <p>En la imagen podemos ver, de forma esquemática, como funciona una central nuclear con un reactor nuclear por presión de agua (reactor de tipo PWR). A la izquiera encontramos el reactor, donde se produce la fisión nuclear y, por tanto, se generan enormes cantidades de calor. Gracias a las altas temperaturas, se genera el vapor que moverá la turbina, iniciando el proceso de producción eléctrica. A su vez, se utiliza un sistema externo de refrigeración por agua, cuyo elemento más reconocible es la gran torre de refrigeración, cuya única emisión es el vapor de agua.</p>
+  </article>
+
+  <article>
+    <h2 id="reactor">El Reactor Nuclear</h2>
+    <p>El núcleo de un reactor nuclear consta de un contenedor o vasija en cuyo interior se albergan bloques de un material aislante de la radiactividad, comúnmente se trata de grafito o de hormigón relleno de combustible nuclear formado por material fisible (uranio-235 o plutonio-239). En el proceso se establece una reacción sostenida y moderada gracias al empleo de elementos auxiliares que absorben el exceso de neutrones liberados manteniendo bajo control la reacción en cadena del material radiactivo; a estos otros elementos se les denominan moderadores.</p>
+    <p>Rodeando al núcleo de un reactor nuclear está el reflector cuya función consiste en devolver al núcleo parte de los neutrones que se fugan de la reacción.</p>
+    <p>Las barras de control que se sumergen facultativamente en el reactor, sirven para moderar o acelerar el factor de multiplicación del proceso de reacción en cadena del circuito nuclear.</p>
+    <p>El blindaje especial que rodea al reactor, absorbe la radiactividad emitida en forma de neutrones, radiación gamma, partículas alfa y partículas beta.</p>
+    <img src="./img/core.gif" alt="Núcleo del reactor" title="Núcleo de un reactor de tipo PWR">
+  </article>
+
+  <article>
+    <h2 id="electric">Producción Eléctrica</h2>
+    <p>El reactor nuclear es el encargado de realizar la fisión de los átomos del combustible nuclear, como uranio, generando como residuo el plutonio, liberando una gran cantidad de energía calorífica por unidad de masa de combustible.</p>
+    <p>El generador de vapor es un intercambiador de calor que transmite calor del circuito primario, por el que circula el agua que se calienta en el reactor, al circuito secundario, transformando el agua en vapor de agua que posteriormente se expande en las turbinas de vapor, produciendo el movimiento de éstas que a la vez hacen girar los generadores eléctricos, produciendo la energía eléctrica. Mediante un transformador se aumenta la tensión eléctrica a la de la red de transporte de energía eléctrica.</p>
+    <p>En España, a pesar de tener solo 7 reactores operativos, todos de tipo PWR y BWR, se generan más de 7.390 MW de potencia, lo que equivale a un 21% de la producción neta a nivel nacional, lo que lo convierte, probablemente, en la fuente de energía sin emisiones de gases de efecto invernadero más eficiente a nivel nacional, y con menor impacto sobre el medio ambiente.</p>
+    <img src="./img/electric.jpg" alt="Potencia eléctrica generada en España, 2019" title="Potencia eléctrica generada en España, 2019">
+  </article>
+
+  <article>
+    <h2 id="condensation">Zona de Condensación</h2>
+    <p>El sistema de refrigeración se encarga de que se enfríe el reactor. Funciona de la siguiente manera: mediante un chorro de agua de 44 600 mg/s aportado por un tercer circuito semicerrado, llamado sistema de circulación, se realiza la refrigeración del núcleo externo. Este sistema consta de dos tubos de refrigeración de tiro artificial, un canal de recogida de tierra y las correspondientes bombas para la refrigeración del núcleo externo y elevación del agua a las torres.</p>
+    <p>Debido a que este sistema supone una demanda de agua, lo común es que las centrales nucleares se ubican cerca de rios, embalses, o del propio océano. Gracias a su sistema de refrigeración, separado de la zona del reactor y dividido en dos etapas (etapa primaria y secundaria, siendo la primaria la que ocurre dentro del reactor y la secundaria la que ocurre fuera, por separado), así como a no retornar agua en ningún momento a la fuente de agua, el impacto ambiental del ciclo térmico de la central es nulo.</p>
+    <img src="./img/cooling.png" alt="Esquema del sistema de refrigeración/condensación de una central nuclear" title="Esquema del sistema de refrigeración/condensación de una central nuclear">
+  </article>
+
+  <div class="toTop"><a href="#top">¡Arriba!</a></div>
+
+  <footer>Reactor cargado por Carlos Hdez. Da Silva &#127981</footer>
+</body>
+</html>

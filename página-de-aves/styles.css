@@ -1,0 +1,79 @@
+#index {
+  background: linear-gradient(240deg, rgb(170, 253, 170), rgb(170, 253, 170, 0) 60%),
+                    linear-gradient(120deg, rgb(247, 210, 161), rgba(247, 210, 161, 0) 60%),
+                    linear-gradient(0deg, rgb(149, 182, 255), rgba(149, 182, 255, 0) 60%);;
+  background-color: beige;
+}
+
+#anaga {
+  background: linear-gradient(180deg, rgb(170, 253, 170), rgb(111, 252, 111));
+}
+
+#teide {
+  background: linear-gradient(180deg, rgb(247, 210, 161), rgb(230, 173, 99));
+}
+
+#costa {
+  background: linear-gradient(180deg, rgb(149, 182, 255), rgb(97, 142, 240));
+}
+
+a:link, a:visited, a:active {
+  color: rgb(7, 26, 100);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+img.imgHabitat {
+  width: 35%;
+  height: auto;
+}
+
+img.imgGaleria {
+  width: 22%;
+  height: auto;
+  margin: 10px;
+}
+
+img.imgData {
+  background-color: antiquewhite;
+}
+
+iframe {
+  width: 40%;
+  height: auto;
+
+  margin: 30px;
+}
+
+section, header {
+  width: 75%;
+
+  margin: 50px 0px 50px 10%;
+}
+
+span {
+  margin: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+#toTop, #topIcon {
+  width: 80px;
+  height: 80px;
+
+  float: right;
+}
+
+#toTop {
+  margin-right: 25px;
+}
+
+p, h3, h4, dl {
+  text-align: justify;
+}
+
+h1, h2, header {
+  text-align: center;
+}
